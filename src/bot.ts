@@ -41,4 +41,8 @@ client.on("message", async (message: Message) => {
   }
 });
 
+// DISCORD_TOKEN en un fichero .env que no esta aquí por temas de seguridad
+// Este es un ejemplo:
+// DISCORD_TOKEN=BjcfdDc1MDcodeI2MTh6szkz.hash.9jhDaqu5bIerdiscord3nRv4kQc3E
+
 client.login(process.env.DISCORD_TOKEN);
